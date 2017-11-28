@@ -8,5 +8,3 @@ def my_collect (array=["tom","susie","fred"])
 
     collection
   end
-
-  
