@@ -7,4 +7,4 @@ def my_collect (array=["tom","susie","fred"])
     end
     puts "#{collection}"
   end
-end
+
