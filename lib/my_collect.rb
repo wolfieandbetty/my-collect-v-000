@@ -8,8 +8,7 @@ def my_collect (array=["tom","susie","fred"])
       array[i].upcase
     end
 
-      collection<< yield(array[i])
-      binding.pry
+      yield collection<<(array[i])
       i=i+1
     end
 
