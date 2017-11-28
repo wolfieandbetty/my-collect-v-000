@@ -1,4 +1,4 @@
-def my_collect (array=["tom","susie","fred"])
+def my_collect (array)
   i=0
   collection=[]
     while i<array.length
@@ -6,5 +6,5 @@ def my_collect (array=["tom","susie","fred"])
       puts "#{collection}"
       i=i+1
     end
-    
+collection
   end
