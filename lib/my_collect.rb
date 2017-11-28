@@ -7,9 +7,9 @@ def my_collect (array=["tom","susie","fred"])
     else
       array[i].upcase
     end
-  
+
       collection<< yield(array[i])
-      puts collection
+      binding.pry
       i=i+1
     end
 
