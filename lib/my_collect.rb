@@ -7,6 +7,7 @@ def my_collect (array="tom","susie","fred")
     else
       array[i].upcase
     end
+  end
       collection<< yield(array[i])
       puts collection
       i=i+1
