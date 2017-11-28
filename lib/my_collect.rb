@@ -3,8 +3,8 @@ def my_collect (array=["tom","susie","fred"])
   collection=[]
     while i<array.length
       collection << yield(array[i])
+      puts "#{collection}"
       i=i+1
     end
-    puts "#{collection}"
+    
   end
-
